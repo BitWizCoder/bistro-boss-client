@@ -1,9 +1,11 @@
-import Banner from "../components/Banner";
+import Banner from "../components/home/Banner";
+import OrderOnline from "../components/home/OrderOnline";
 
 const Home = () => {
   return (
     <div>
       <Banner />
+      <OrderOnline />
     </div>
   );
 };
